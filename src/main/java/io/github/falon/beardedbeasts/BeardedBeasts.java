@@ -1,6 +1,7 @@
-package io.github.falon.beardedbeasts.common;
+package io.github.falon.beardedbeasts;
 
-import io.github.falon.beardedbeasts.common.init.ModItems;
+import io.github.falon.beardedbeasts.init.ModItemGroups;
+import io.github.falon.beardedbeasts.init.ModItems;
 import org.quiltmc.loader.api.ModContainer;
 import org.quiltmc.qsl.base.api.entrypoint.ModInitializer;
 import org.slf4j.Logger;
@@ -15,5 +16,6 @@ public class BeardedBeasts implements ModInitializer {
         LOGGER.info("Hello Quilt world from {}! Stay fresh!", mod.metadata().name());
 
 		ModItems.initialize();
+		ModItemGroups.initialize();
     }
 }

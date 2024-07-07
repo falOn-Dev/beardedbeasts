@@ -1,6 +1,6 @@
 package io.github.falon.beardedbeasts.datagen.providers;
 
-import io.github.falon.beardedbeasts.common.init.ModItems;
+import io.github.falon.beardedbeasts.init.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;

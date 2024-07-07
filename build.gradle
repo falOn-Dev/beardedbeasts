@@ -7,6 +7,11 @@ base {
 	archivesName = project.archives_base_name
 }
 
+project.configurations.configureEach {
+	exclude(group: "net.fabricmc", module: "fabric-loader")
+	exclude(group: "net.fabricmc.fabric-api")
+}
+
 version = "$project.version+${libs.versions.minecraft.get()}"
 group = project.maven_group
 

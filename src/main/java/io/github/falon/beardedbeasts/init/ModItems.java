@@ -1,11 +1,9 @@
-package io.github.falon.beardedbeasts.common.init;
+package io.github.falon.beardedbeasts.init;
 
-import io.github.falon.beardedbeasts.common.BeardedBeasts;
-import io.github.falon.beardedbeasts.common.item.HolsterItem;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import io.github.falon.beardedbeasts.BeardedBeasts;
+import io.github.falon.beardedbeasts.item.HolsterItem;
 import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;

@@ -1,6 +1,6 @@
-package io.github.falon.beardedbeasts.common.item;
+package io.github.falon.beardedbeasts.item;
 
-import io.github.falon.beardedbeasts.common.BeardedBeasts;
+import io.github.falon.beardedbeasts.BeardedBeasts;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;

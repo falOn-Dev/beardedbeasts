@@ -1,6 +1,6 @@
 package io.github.falon.beardedbeasts.mixin;
 
-import io.github.falon.beardedbeasts.common.BeardedBeasts;
+import io.github.falon.beardedbeasts.BeardedBeasts;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
